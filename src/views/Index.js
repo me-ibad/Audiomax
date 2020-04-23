@@ -59,7 +59,8 @@ function Index() {
      <Route path="/selections"  component={Selections}   />
      <Route path="/upload"  component={Upload}   />
      <Route path="/song"  component={Song}   />
-     <Route path="/aprofile"  component={AProfile}   />
+     <Route path="/aprofile"  component={ProfilePage}   />
+     <Route path="/profilepage"  component={ProfilePage}   />
    </Switch>
 
       </BrowserRouter>

@@ -1498,4 +1498,9 @@ mark {
         width: 300px;
         margin-right: 1000px;
     }
+.index-page .page-header {
+  height: 90vh;
+}
+
+
 }

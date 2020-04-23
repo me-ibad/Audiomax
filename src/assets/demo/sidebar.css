@@ -285,8 +285,8 @@ nav.main-menu li.active>a,
 .dropdown-menu>.active>a:focus,
 .no-touch .dashboard-page nav.dashboard-menu ul li:hover a,
 .dashboard-page nav.dashboard-menu ul li.active a {
-    color: #fff;
-    background-color: orangered;
+    color: orangered;
+    
     text-shadow: 0px 0px 0px;
 }
 
