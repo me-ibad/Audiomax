@@ -6,9 +6,7 @@ import Slider from "nouislider";
 
 // reactstrap components
 import {
-   
-   
- 
+
    
    Modal,
    ModalBody,

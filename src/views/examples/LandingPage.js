@@ -29,7 +29,7 @@ import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import Newnav from "components/Navbars/Newnav.js";
 import LandingPageHeader from "components/Headers/LandingPageHeader.js";
 import DefaultFooter from "components/Footers/DefaultFooter.js";
-import Scard from "components/Card/scard.js";
+import Songscard from "components/Card/Songscard.js";
 
 function LandingPage() {
    const [collapseOpen, setCollapseOpen] = React.useState(false);
@@ -56,10 +56,13 @@ function LandingPage() {
 
 </Col>
 
+
+
+
           <Col md="9" lg="9"  sm="10" xs="10">
 
 <Row>
-<Col lg="9" md="8" sm="8" xm="12">
+<Col lg="10" md="9" sm="9" xm="12">
 
 
 <div className="trand1">
@@ -90,53 +93,42 @@ function LandingPage() {
 </Row>
 
 
- <Row>
-          <Col lg="12" md="12" sm="12" xs="12">
 
-
-            
-            </Col>
-            </Row>
 
 
 
  <Row>
-          <Col lg="3" md="3" sm="3" xs="3">
-   <Scard/>
-    
-</Col>
-<Col lg="2" md="3" sm="5" xs="6">
+   <Col lg="3" md="3" sm="6" xm="6">
+<Songscard/>
+   </Col>
+<Col lg="1" md="1" sm="1" xm="1">
+
+   </Col>
+
+
+
+   <Col lg="3" md="3" sm="6" xm="6">
+<Songscard/>
+   </Col>
+   <Col lg="1" md="1" sm="1" xm="1">
+
+   </Col>
+
+   <Col lg="3" md="3" sm="6" xm="6">
+<Songscard/>
+   </Col>
    
-    
-</Col>
-
-<Col lg="3" md="3" sm="3" xs="3">
-   <Scard/>
-    
-</Col>
+ </Row>
 
 
-</Row>
+<br/><br/><br/><br/><br/><br/>    
 
 
-
-
-
-
-
-
-<Row>
-          <Col md="3" sm="3" xs="4">
-   <Scard/>
-    
-</Col>
-
-</Row>
 
           </Col>
         </Row>
         
-        
+    
              
        
         

@@ -1026,6 +1026,11 @@ mark {
     padding: 0 0 0 10px;
     
 }
+.sermarg{
+    margin-left: 300px;
+}
+
+
 
 #navsub {
     padding: 0px 10px 0px 10px;
@@ -1034,7 +1039,9 @@ mark {
     color: orangered;
 }
 
-
+.margleft{
+  margin-left: 170px;
+}
 
 /* Artist profile */
 @import url("https://fonts.googleapis.com/css?family=Quicksand:400,500,700&subset=latin-ext");
@@ -1500,6 +1507,9 @@ mark {
     }
 .index-page .page-header {
   height: 90vh;
+}
+.sermarg {
+  margin-left: -300px;
 }
 
 

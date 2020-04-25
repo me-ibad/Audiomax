@@ -1,5 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
+
+import Newnav from './Newnav.js'
+
 import {
 
 } from 'react-bootstrap';
@@ -284,11 +287,11 @@ className = "marg"
         <Container>
           <div className="navbar-translate">
             <NavbarBrand
-              href=""
+              href="https://demos.creative-tim.com/now-ui-kit-react/#/index?ref=nukr-index-navbar"
               target="_blank"
               id="navbar-brand"
             >
-              
+              Website Name
             </NavbarBrand>
             <UncontrolledTooltip target="#navbar-brand">
               By Encodersoft
@@ -296,10 +299,15 @@ className = "marg"
           
           </div>
 
-<div class="ui action left icon input">
-    <input type="text" placeholder="Order #" />
-    <i aria-hidden="true" class="search icon"></i>
-    <button class="ui blue button">Search</button>
+
+  <div class="six wide column sermarg">
+    <div fallbackElement="[object Object]" class="ui search">
+      <div class="ui icon input">
+        <input type="text"   class="prompt" autocomplete="off" />
+        <i aria-hidden="true" class="search icon"></i>
+      </div>
+      
+    </div>
   </div>
           
           <Collapse
@@ -309,6 +317,9 @@ className = "marg"
           >
             <Nav navbar>
             
+           
+
+
               <NavItem>
                 <NavLink
                   href="#pablo"
@@ -333,23 +344,12 @@ className = "marg"
 
 
 
-<NavItem>
-                <NavLink
-                  href="#pablo"
-                  onClick={e => {
-                    e.preventDefault();
-                    document
-                      .getElementById("download-section")
-                      .scrollIntoView();
-                  }}
-                >
-                  <i className="now-ui-icons ui-1_bell-53"></i>
-                  
-                </NavLink>
+
+                <Newnav/>
 
 
                 
-              </NavItem>
+              
               
              
               <NavItem>

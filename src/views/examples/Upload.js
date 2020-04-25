@@ -31,7 +31,7 @@ function Upload() {
     
     return (
         <div>
-         
+          <Newnav/>
           <br/>
             <Container>
           <Row>

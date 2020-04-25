@@ -3,11 +3,11 @@ import "assets/demo/sidebar.css";
 function Sidebar() {
     
     return (
-        <div>
+        <div className="sidebar">
         
       <nav className="main-menu">
         <div>
-          <a className="logo" href="http://startific.com">
+          <a className="logo" href="">
           </a> 
         </div> 
         <div className="settings" />
@@ -20,69 +20,69 @@ function Sidebar() {
               </a>
             </li>   
             <li>                                 
-              <a href="http://startific.com">
+              <a href="">
                 <i class="fa fa-newspaper-o" aria-hidden="true"></i>
                 <span className="nav-text">News</span>
               </a>
             </li>   
             <li>                                 
-              <a href="http://startific.com">
+              <a href="">
                 <i className="fa fa-fire fa-lg" />
                 <span className="nav-text">Trending</span>
               </a>
             </li>   
             
             <li className="darkerlisheadow">
-              <a href="http://startific.com">
+              <a href="">
                 <i className="fa fa-music fa-lg" />
                 <span className="nav-text">Top Songs</span>
               </a>
             </li>
             <li className="darkefrli">
-              <a href="http://startific.com">
+              <a href="">
                 <i className="fa fa-play-circle fa-lg" />
                 <span className="nav-text">Top Mixtape</span>
               </a>
             </li>
             <li className="darkerdli">
-              <a href="http://startiffic.com">
+              <a href="">
                 <i className="fa fa-folder-open fa-lg" />
                 <span className="nav-text">Top Albums</span>
               </a>
             </li>
             <li className="darkefsrli">
-              <a href="http://startific.com">
+              <a href="">
                 <i className="fa fa-fast-forward" />
                 <span className="nav-text">Top Playlist</span>
               </a>
             </li>
             <li className="darkerfli">
-              <a href="http://startific.com">
+              <a href="">
                 <i className="fa fa-microphone fa-lg" />
                 <span className="nav-text">Top Podcast</span>
               </a>
             </li>
             <li className="darkferli">
-              <a href="http://startific.com">
+              <a href="">
                 <i className="fa fa-reddit-alien fa-lg" />
                 <span className="nav-text">Radio Station</span>
               </a>
             </li>
             <li className="darkferli">
-              <a href="http://startific.com">
+              <a href="">
                 <i className="fa fa-picture-o fa-lg" />
                 <span className="nav-text">Carvinal</span>
               </a>
             </li>
             <li className="darfkerli">
-              <a href="http://startific.com">
+              <a href="">
                 <i className="fa fa-align-left fa-lg" />
                 <span className="nav-text">Recently Added
                 </span>
               </a>
             </li>
             <li className="darkferli">
-              <a href="http://startific.com">
+              <a href="">
                 <i className="fa fa-user-circle-o fa-lg" />
                 <span className="nav-text">Top Accounts</span>
               </a>
@@ -90,20 +90,20 @@ function Sidebar() {
             <div class="ui divider"></div>
 
             <li className="darkerlidshadowdown">
-              <a href="http://startific.com">
+              <a href="">
                 <i className="fa fa-youtube-play fa-lg" />
                 <span className="nav-text">Youtube</span>
               </a>
             </li>
           </ul>
           <li>
-            <a href="http://startific.com">
+            <a href="">
               <i className="fa fa-facebook fa-lg" />
               <span className="nav-text">Facebook</span>
             </a>
           </li>   
 <li>
-            <a href="http://startific.com">
+            <a href="">
               <i className="fa fa-instagram fa-lg" />
               <span className="nav-text">Instagram</span>
             </a>
@@ -114,7 +114,7 @@ function Sidebar() {
 
           <ul className="logout">
             <li>
-              <a href="http://startific.com">
+              <a href="">
                 <i className="fa fa-twitter fa-lg" />
                 <span className="nav-text">
                   Twitter 

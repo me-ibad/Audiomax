@@ -13,6 +13,7 @@ import {
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import IndexHeader from "components/Headers/IndexHeader.js";
 import DarkFooter from "components/Footers/DarkFooter.js";
+import player from "components/Card/player.js";
 
 // sections for this page
 import Images from "./index-sections/Images.js";
@@ -61,6 +62,7 @@ function Index() {
      <Route path="/song"  component={Song}   />
      <Route path="/aprofile"  component={ProfilePage}   />
      <Route path="/profilepage"  component={ProfilePage}   />
+     {/* <Route path="/player"  component={player}   /> */}
    </Switch>
 
       </BrowserRouter>
