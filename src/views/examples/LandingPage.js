@@ -70,7 +70,7 @@ function LandingPage() {
 <Row>
 <Col lg="4" md="4" sm="4" xm="4">
   <i aria-hidden="true" class="fire icon"></i>
-  <span className="tran">Tranding</span>
+  <span className="tran">Trending</span>
 </Col>
 <Col lg="6" md="4" sm="4" xm="4">
   

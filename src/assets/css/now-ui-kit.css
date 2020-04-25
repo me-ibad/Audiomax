@@ -4620,9 +4620,11 @@ Created using IcoMoon - icomoon.io
 }
 
 .navbar.navbar-transparent {
-  background-color: orangered !important;
-  box-shadow: none;
-  color: #FFFFFF;
+  background-color: white !important;
+  -webkit-box-shadow: 10px 10px 58px -33px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 58px -33px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 58px -33px rgba(0, 0, 0, 0.75);
+  color: black;
   padding-top: 20px !important;
 }
 

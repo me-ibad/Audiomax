@@ -56,12 +56,12 @@
 
 
 #style-1::-webkit-scrollbar-track {
-    border-radius: 2px;
+  
 }
 
 #style-1::-webkit-scrollbar {
     width: 5px;
-    background-color: #F7F7F7;
+    background-color: black;
 }
 
 #style-1::-webkit-scrollbar-thumb {
@@ -97,10 +97,11 @@
 
 
 .main-menu {
-    background: #F7F7F7;
+    background: white;
     position: absolute;
     top: 0;
     bottom: 0;
+    
     height: 100%;
     left: 0;
     width: 200px;
@@ -132,14 +133,14 @@
     display: table;
     border-collapse: collapse;
     border-spacing: 0;
-    color: #8a8a8a;
+    color: black;
     font-size: 13px;
     text-decoration: none;
     -webkit-transform: translateZ(0) scale(1, 1);
     -webkit-transition: all .14s linear;
     transition: all .14s linear;
     font-family: 'Strait', sans-serif;
-    border-top: 1px solid #f2f2f2;
+  
 
     text-shadow: 1px 1px 1px #fff;
 }
@@ -576,4 +577,17 @@ a.dropdown-menu-header {
 
 .badge-danger {
     background-color: #db5565;
+}
+.lebmarg {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.contmarg{
+    font-size: 13px;
+  
+
+}
+.datemarg{
+    margin-top: 4px;
+    font-size:9px ;
 }

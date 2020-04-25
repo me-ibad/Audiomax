@@ -21,37 +21,36 @@ function Newnav() {
     return (
     <div class="dropdown" >
     <a href="#" onclick="return false;" role="button" data-toggle="dropdown" id="dropdownMenu1" data-target="#"  aria-expanded="true">
-        <i class="fa fa-bell-o bellicon" >
+        <i class="navlinksty fa fa-bell-o bellicon" >
         </i>
     </a>
     <span class="badge badge-danger">6</span>
     <ul class="dropdown-menu dropdown-menu-left pull-right" role="menu" aria-labelledby="dropdownMenu1">
-        <li role="presentation">
-            <a href="#" class="dropdown-menu-header">Notifications</a>
-        </li>
-        <ul class="timeline timeline-icons timeline-sm" >
+      
+        <ul class="  timeline timeline-icons timeline-sm " >
   
     <div class="ui feed">
   <div class="event">
-    <div class="label">
+    <div class="label lebmarg">
       <img src="https://react.semantic-ui.com/images/avatar/small/elliot.jpg" />
     </div>
-    <div class="content">
+    <div class="content contmarg">
       You added Elliot Fu to the group
       <a>Coworkers</a>
-         <div class="date">1 Hour Ago</div>
+      <br/>
+         <div class=" datemarg">1 Hour Ago</div>
     </div>
   </div>
 </div>
     <div class="ui feed">
   <div class="event">
-    <div class="label">
+    <div class="label lebmarg">
       <img src="https://react.semantic-ui.com/images/avatar/small/elliot.jpg" />
     </div>
-    <div class="content">
+    <div class="content contmarg">
       You added Elliot Fu to the group
       <a>Coworkers</a>
-         <div class="date">1 Hour Ago</div>
+         <div class="datemarg">1 Hour Ago</div>
     </div>
   </div>
 </div>

@@ -285,13 +285,17 @@ className = "marg"
 
       <Navbar className={"fixed-top " + navbarColor} expand="lg" color="primary">
         <Container>
+           <i className="fa fa-youtube-play fa-lg iconmarg" />
           <div className="navbar-translate">
+            
             <NavbarBrand
               href="https://demos.creative-tim.com/now-ui-kit-react/#/index?ref=nukr-index-navbar"
               target="_blank"
               id="navbar-brand"
+              
             >
-              Website Name
+              <span className="navlinksty">Ayititune</span>
+              
             </NavbarBrand>
             <UncontrolledTooltip target="#navbar-brand">
               By Encodersoft
@@ -302,8 +306,8 @@ className = "marg"
 
   <div class="six wide column sermarg">
     <div fallbackElement="[object Object]" class="ui search">
-      <div class="ui icon input">
-        <input type="text"   class="prompt" autocomplete="off" />
+      < div class = "ui icon input sermarg" >
+        <input type="text" size="60"   class="prompt " autocomplete="off" />
         <i aria-hidden="true" class="search icon"></i>
       </div>
       
@@ -322,11 +326,12 @@ className = "marg"
 
               <NavItem>
                 <NavLink
+                
                   href="#pablo"
                  onClick={() => setModal1(true)}
                 >
                   {/* <i className="now-ui-icons users_circle-08"></i> */}
-                  <p>SignUp</p>
+                  <p className="navlinksty"> SignUp</p>
                 </NavLink>             
               </NavItem>
              
@@ -336,7 +341,7 @@ className = "marg"
                   onClick={() => setModal3(true)}
                 >
                   {/* <i className="now-ui-icons users_circle-08"></i> */}
-                  <p>Sign In</p>
+                  <p className="navlinksty">Sign In</p>
                 </NavLink>             
               </NavItem>
 
