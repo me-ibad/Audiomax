@@ -282,6 +282,8 @@ className = "marg"
 
       <Navbar className={"fixed-top " + navbarColor} expand="lg" color="white">
      
+<i class="fas fa-ellipsis-v buliticnmarg"></i>
+     
            <i className="fa fa-youtube-play fa-lg iconmarg" />
           <div className="navbar-translate">
             
@@ -304,7 +306,12 @@ className = "marg"
   <div class="six wide column ">
     <div fallbackElement="[object Object]" class="ui search">
       < div class = "ui icon input sermarg " >
-        <input type="text" className="prompt inpsty"   autocomplete="off" />
+        < input type = "text"
+        className = "prompt inpsty"
+        
+        placeholder = "search artists, songs , albums, playlist and etc"
+        
+        autocomplete="off" />
         <i aria-hidden="true" class="search icon"></i>
       </div>
       
@@ -319,7 +326,12 @@ className = "marg"
             <Nav navbar>
             
            
-<Newnav/>
+{/* <Newnav/> */}
+
+  
+                  <span class="iconify" data-icon="fa-solid:upload" data-inline="false"></span>
+                 
+            
 
               <NavItem>
                 <NavLink
@@ -339,10 +351,17 @@ className = "marg"
                 >
                   {/* <i className="now-ui-icons users_circle-08"></i> */}
                   <p className="navlinksty">Sign In</p>
-                </NavLink>             
+                </NavLink>   
+                          
               </NavItem>
 
-
+              <div>
+  <img
+    src="https://react.semantic-ui.com/images/wireframe/square-image.png"
+    class="ui avatar image"
+  />
+  
+</div>
 
 
 
@@ -354,22 +373,7 @@ className = "marg"
               
               
              
-              <NavItem>
-                <Button
-                  className="nav-link btn-neutral btupload"
-                  
-                  href="#pablo"
-                  id="upgrade-to-pro"
-                  onClick={e => e.preventDefault()}
-                >
-                  <i className="now-ui-icons arrows-1_share-66 mr-1"></i>
-                  <p>Upload</p>
-                </Button>
-                <UncontrolledTooltip target="#upgrade-to-pro">
-                  Cooming soon!
-                </UncontrolledTooltip>
-              </NavItem>
-            
+          
             </Nav>
           </Collapse>
        

@@ -526,8 +526,10 @@ text-decoration: underline;
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=devanagari,latin-ext');
 .iconify{
-    height: 100px;
-    width: 50px;
+    height: 20px;
+    width: 20px;
+    margin-right:10px ;
+    margin-top: 6px;
 }
 
 :root {
@@ -1140,7 +1142,20 @@ width: 500px;
 }
 
 
+.buliticnmarg{
+  margin-left: 50px;
+}
+input.inpsty::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color:red;
+  opacity: 1;
+  /* Firefox */
+}
 
+.uploadiconsty{
+  width: 10000px;
+ 
+}
 
 
 .btupload{
@@ -1150,7 +1165,7 @@ width: 500px;
 .navlinksty {
     color: black;
     font-weight: bold;
-    
+   
 }
 
 
