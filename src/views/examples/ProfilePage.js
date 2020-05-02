@@ -15,10 +15,13 @@ import {
 } from "reactstrap";
 
 // core components
-import ExamplesNavbar from "components/Navbars/ExamplesNavbar.js";
+import ExamplesNavbar from "components/Navbars/IndexNavbar.js";
 import ProfilePageHeader from "components/Headers/ProfilePageHeader.js";
 import DefaultFooter from "components/Footers/DefaultFooter.js";
 import Songscard from "components/Card/Songscard.js";
+
+
+
 function ProfilePage() {
   const [pills, setPills] = React.useState("2");
   React.useEffect(() => {
@@ -80,16 +83,19 @@ function ProfilePage() {
             </div>
             <h3 className="title">Recent Uploads</h3>
  <Row>
-   <Col lg="3" md="3" sm="6" xm="6">
+   <Col lg="3" md="4" sm="6" xm="6">
 <Songscard/>
    </Col>
-   <Col lg="3" md="3" sm="6" xm="6">
+
+
+
+   <Col lg="3" md="5" sm="6" xm="6">
 <Songscard/>
    </Col>
-   <Col lg="3" md="3" sm="6" xm="6">
+   <Col lg="3" md="5" sm="6" xm="6">
 <Songscard/>
    </Col>
-   <Col lg="3" md="3" sm="6" xm="6">
+   <Col lg="3" md="4" sm="6" xm="6">
 <Songscard/>
    </Col>
  </Row>

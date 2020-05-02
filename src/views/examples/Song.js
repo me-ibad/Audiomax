@@ -1,5 +1,6 @@
 import React from 'react'
 import Sidebar from "components/Sidebar/Sidebar.js";
+
 import {
     Button,
     Input, Container,
@@ -89,10 +90,7 @@ function Song() {
 <div class="container-audio">
     <Row>
         <Col md="12">
-        <audio controls  loop autoplay>
-                   <source src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/9473/new_year_dubstep_minimix.ogg" type="audio/ogg"/>
-                   Your browser dose not Support the audio Tag
-               </audio>
+        
 </Col>
 </Row>
 
@@ -127,9 +125,7 @@ function Song() {
 
     </div>
     </Col>
-<Col xs="1">
 
-</Col>
 
 
 </Row>

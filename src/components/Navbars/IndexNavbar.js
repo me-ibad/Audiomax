@@ -3,9 +3,6 @@ import { Link } from "react-router-dom";
 
 import Newnav from './Newnav.js'
 
-import {
-
-} from 'react-bootstrap';
 // reactstrap components
 import {
   Button,
@@ -283,8 +280,8 @@ className = "marg"
 
 
 
-      <Navbar className={"fixed-top " + navbarColor} expand="lg" color="primary">
-        <Container>
+      <Navbar className={"fixed-top " + navbarColor} expand="lg" color="white">
+     
            <i className="fa fa-youtube-play fa-lg iconmarg" />
           <div className="navbar-translate">
             
@@ -294,7 +291,7 @@ className = "marg"
               id="navbar-brand"
               
             >
-              <span className="navlinksty">Ayititune</span>
+              <span className="navlinksty">Ayititunes</span>
               
             </NavbarBrand>
             <UncontrolledTooltip target="#navbar-brand">
@@ -304,10 +301,10 @@ className = "marg"
           </div>
 
 
-  <div class="six wide column sermarg">
+  <div class="six wide column ">
     <div fallbackElement="[object Object]" class="ui search">
-      < div class = "ui icon input sermarg" >
-        <input type="text" size="60"   class="prompt " autocomplete="off" />
+      < div class = "ui icon input sermarg " >
+        <input type="text" className="prompt inpsty"   autocomplete="off" />
         <i aria-hidden="true" class="search icon"></i>
       </div>
       
@@ -322,7 +319,7 @@ className = "marg"
             <Nav navbar>
             
            
-
+<Newnav/>
 
               <NavItem>
                 <NavLink
@@ -350,7 +347,7 @@ className = "marg"
 
 
 
-                <Newnav/>
+                
 
 
                 
@@ -375,7 +372,7 @@ className = "marg"
             
             </Nav>
           </Collapse>
-        </Container>
+       
       </Navbar>
     </>
   );

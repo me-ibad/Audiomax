@@ -1,5 +1,6 @@
 import React from 'react'
 import "assets/demo/sidebar.css";
+
 function Sidebar() {
     
     return (
@@ -19,58 +20,58 @@ function Sidebar() {
                 <span className="nav-text">Home</span>
               </a>
             </li>   
-            <li>                                 
+            <li className="limargtop">                                 
               <a href="">
-                <i class="fa fa-newspaper-o" aria-hidden="true"></i>
+                <span class="icon-newspaper iconmarg1"></span>
                 <span className="nav-text">News</span>
               </a>
             </li>   
-            <li>                                 
+            <li className="limargtop">                                 
               <a href="">
-                <i className="fa fa-fire fa-lg" />
+              <span class="icon-arrow iconmarg1"></span>
                 <span className="nav-text">Trending</span>
               </a>
             </li>   
             
-            <li className="darkerlisheadow">
+            < li className = "darkerlisheadow limargtop" >
               <a href="">
                 <i className="fa fa-music fa-lg" />
                 <span className="nav-text">Top Songs</span>
               </a>
             </li>
-            <li className="darkefrli">
+            < li className = "darkefrli limargtop" >
               <a href="">
-                <i className="fa fa-play-circle fa-lg" />
+               <span class="icon-album-3 iconmarg1"></span>
                 <span className="nav-text">Top Mixtape</span>
               </a>
             </li>
-            <li className="darkerdli">
+            < li className = "darkerdli limargtop" >
               <a href="">
-                <i className="fa fa-folder-open fa-lg" />
+                <span class="icon-album iconmarg1"></span>
                 <span className="nav-text">Top Albums</span>
               </a>
             </li>
-            <li className="darkefsrli">
+            < li className = "darkefsrli limargtop" >
               <a href="">
-                <i className="fa fa-fast-forward" />
+                 <span class="icon-music-album iconmarg1"></span>
                 <span className="nav-text">Top Playlist</span>
               </a>
             </li>
-            <li className="darkerfli">
+            < li className = "darkerfli limargtop" >
               <a href="">
-                <i className="fa fa-microphone fa-lg" />
+               <span class="icon-podcast iconmarg1"></span>
                 <span className="nav-text">Top Podcast</span>
               </a>
             </li>
-            <li className="darkferli">
+            <li className="darkferli   ">
               <a href="">
                 <i className="fa fa-reddit-alien fa-lg" />
                 <span className="nav-text">Radio Station</span>
               </a>
             </li>
-            <li className="darkferli">
+            < li className = "darkferli limargtop" >
               <a href="">
-                <i className="fa fa-picture-o fa-lg" />
+                <span class="icon-carnival-mask iconmarg1"></span>
                 <span className="nav-text">Carvinal</span>
               </a>
             </li>

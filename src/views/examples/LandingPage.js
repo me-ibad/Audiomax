@@ -66,7 +66,7 @@ function LandingPage() {
 
 
 <div className="trand1">
-
+<br/>
 <Row>
 <Col lg="4" md="4" sm="4" xm="4">
   <i aria-hidden="true" class="fire icon"></i>
@@ -101,7 +101,7 @@ function LandingPage() {
    <Col lg="3" md="3" sm="6" xm="6">
 <Songscard/>
    </Col>
-<Col lg="1" md="1" sm="1" xm="1">
+<Col lg="1" md="3" sm="3" xm="3">
 
    </Col>
 
@@ -110,7 +110,7 @@ function LandingPage() {
    <Col lg="3" md="3" sm="6" xm="6">
 <Songscard/>
    </Col>
-   <Col lg="1" md="1" sm="1" xm="1">
+   <Col lg="1" md="3" sm="3" xm="3">
 
    </Col>
 
