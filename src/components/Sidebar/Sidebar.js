@@ -115,6 +115,23 @@ function Sidebar() {
                 <span className="nav-text">Twitter</span>
               </a>
             </li>
+<br/>
+<span className="headgrop">Download App:</span>
+
+
+  <a class="app-btn blu flex vert" href="http:apple.com">
+    <i class="fab fa-apple"></i>
+    <p>Download on<br/> <span class="big-txt">App Store</span></p>
+  </a>
+
+
+
+   <a class="app-btn blu flex vert" href="http:google.com">
+    <i class="fab fa-google-play"></i>
+    <p>Download on<br/> <span class="big-txt">Google Play</span></p>
+  </a>
+
+
 
 
 <br/>
