@@ -161,18 +161,37 @@
 
 .main-menu .nav-text {
 text-decoration: none;
-    position: relative;
+    position: absolute;
+    margin-left: 60px;
+    margin-top: -17px;
     display: table-cell;
     vertical-align: middle;
-    width: 190px;
+   
+    
     font-family: 'Titillium Web', sans-serif;
 }
+.main-menu .nav-texthom {
+    text-decoration: none;
+    position: absolute;
+    margin-left: 60px;
+    margin-top: -27px;
+    display: table-cell;
+    vertical-align: middle;
+
+
+    font-family: 'Titillium Web', sans-serif;
+}
+
+
+
+
+
 
 
 .main-menu .share {}
 
 .nav-text{
-    margin-right: 1000px;
+   
 }
 
 .main-menu .fb-like {
@@ -578,6 +597,7 @@ a.dropdown-menu-header {
     font-weight: normal;
     font-style: normal;
     font-display: block;
+    
 }
 
 [class^="icon-"],

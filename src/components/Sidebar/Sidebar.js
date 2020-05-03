@@ -17,7 +17,7 @@ function Sidebar() {
             <li>                                   
               <a href="">
                 <i className="fa fa-home fa-lg" />
-                <span className="nav-text">Home</span>
+                <span className="nav-texthom">Home</span>
               </a>
             </li>   
             <li className="limargtop">                                 
@@ -103,7 +103,7 @@ function Sidebar() {
 <li className="darkerlidshadowdown limargtop">
               <a href="">
               <span class="icon-instagram iconmarg1"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></span>
-                <span className="nav-text">instagram</span>
+                <span className="nav-text">Instagram</span>
               </a>
             </li>
 
