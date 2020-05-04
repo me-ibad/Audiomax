@@ -1,4 +1,6 @@
 import React from 'react'
+import Sidebar from "components/Sidebar/Sidebar.js";
+import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import {
     Button,
     Input,
@@ -13,7 +15,16 @@ function Selections() {
     return (
    
              <div>
-       
+  <IndexNavbar />
+          <Row>
+          <Col lg="3" md="3" sm="2" xs="2">
+<Sidebar/>
+
+</Col>
+        
+           
+
+          <Col md="8" lg="8"  sm="10" xs="10">
           <input className="checkbox" type="checkbox" name="general" id="general" />
           <label className="for-checkbox" htmlFor="general" />
          
@@ -62,6 +73,8 @@ function Selections() {
               </div>
             </div>	
           </div>
+          </Col>
+          </Row>
         </div>
         
       

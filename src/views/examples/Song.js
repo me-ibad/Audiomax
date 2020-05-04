@@ -125,7 +125,6 @@ function Song() {
 </div>
 </Col></Row>
 
-
     </div>
     </Col>
 
@@ -134,32 +133,14 @@ function Song() {
 </Row>
 
 
-
-
 </div>
-
-
 
      </Col>
    
        </Row>
 
 
-
-
-
-
-
-
-
       </div>
-
-
-
-
-
-
-
 
 
       </Col>
