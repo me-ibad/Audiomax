@@ -1,7 +1,7 @@
 import React from 'react'
+import Sidebar from "components/Sidebar/Sidebar.js";
 
-
-import Newnav from "components/Navbars/Newnav.js";
+import Newnav from "components/Navbars/IndexNavbar.js";
 import {
     Button,
     Input,
@@ -33,9 +33,22 @@ function Upload() {
         <div>
           <Newnav/>
           <br/>
-            <Container>
+          
+                 <Row>
+          <Col lg="3" md="3" sm="2" xs="2">
+<Sidebar/>
+
+</Col>
+
+
+
+
+          <Col md="9" lg="9"  sm="10" xs="10">
+<br/>
+          <br/>
+          <br/>
           <Row>
-            <Col className="" md="10" xl="10">
+            <Col className="" lg="11" md="10" >
             <Card>
                 <CardHeader>
                   <Nav
@@ -506,7 +519,10 @@ Featuring</Label>
               </Card>
 </Col>
 </Row>
-</Container>
+
+</Col>
+</Row>
+
         </div>
     )
 }

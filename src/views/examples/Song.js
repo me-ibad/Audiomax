@@ -1,6 +1,6 @@
 import React from 'react'
 import Sidebar from "components/Sidebar/Sidebar.js";
-
+import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import {
     Button,
     Input, Container,
@@ -12,6 +12,7 @@ function Song() {
     return (
 
 <div>
+  <IndexNavbar />
             <Row>
           <Col lg="3" md="3" sm="2" xs="2">
 <Sidebar/>
@@ -21,8 +22,10 @@ function Song() {
            
 
           <Col md="8" lg="8"  sm="10" xs="10">
-
+<br/>
+<br/>
              <Row>
+
          <Col md="12" lg="12"  sm="11" xs="11">
 
    < div className = "card-landing"

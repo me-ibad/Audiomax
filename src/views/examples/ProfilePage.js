@@ -20,7 +20,7 @@ import ProfilePageHeader from "components/Headers/ProfilePageHeader.js";
 import DefaultFooter from "components/Footers/DefaultFooter.js";
 import Songscard from "components/Card/Songscard.js";
 
-
+import Sidebar from "components/Sidebar/Sidebar.js";
 
 function ProfilePage() {
   const [pills, setPills] = React.useState("2");
@@ -35,7 +35,20 @@ function ProfilePage() {
   });
   return (
     <>
+    
       <ExamplesNavbar />
+
+       <Row>
+          <Col lg="2" md="2" sm="2" xs="2">
+<Sidebar/>
+
+</Col>
+
+
+
+
+          <Col md="10" lg="10"  sm="10" xs="10">
+
       <div className="wrapper">
         <ProfilePageHeader />
         <div className="section">
@@ -83,19 +96,23 @@ function ProfilePage() {
             </div>
             <h3 className="title">Recent Uploads</h3>
  <Row>
-   <Col lg="3" md="4" sm="6" xm="6">
+   <Col lg="3" md="3" sm="6" xm="6">
 <Songscard/>
+   </Col>
+<Col lg="1" md="4" sm="4" xm="4">
+
    </Col>
 
 
 
-   <Col lg="3" md="5" sm="6" xm="6">
+   <Col lg="3" md="3" sm="6" xm="6">
 <Songscard/>
    </Col>
-   <Col lg="3" md="5" sm="6" xm="6">
-<Songscard/>
+   <Col lg="1" md="3" sm="3" xm="3">
+
    </Col>
-   <Col lg="3" md="4" sm="6" xm="6">
+
+   <Col lg="3" md="3" sm="6" xm="6">
 <Songscard/>
    </Col>
  </Row>
@@ -106,9 +123,16 @@ function ProfilePage() {
             
           
         </div>
-        <DefaultFooter />
+        
       </div>
+    
+    </Col>
+    </Row>
     </>
+
+
+
+
   );
 }
 
