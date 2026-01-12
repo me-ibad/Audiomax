@@ -17,7 +17,7 @@
     "react-howler": "^3.7.4",
     "react-router": "5.0.1",
     "react-router-dom": "5.0.1",
-    "react-scripts": "3.0.1",
+    "react-scripts": "5.0.1",
     "react-soundplayer": "^1.0.4",
     "react-wavesurfer": "^0.8.6",
     "reactstrap": "8.0.1",
